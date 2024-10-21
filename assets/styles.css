@@ -1,0 +1,285 @@
+primary-color: #4759E1;
+secondary-color: #292C89;
+terciary-color: #01A79D;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: #4759E1;
+}
+.navbar-collapse {
+  background-color: #4759E1;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.w-100 {
+  width: 100%;
+}
+.nav-link {
+  color: #fff;
+}
+.reserve__btn {
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+#section__frontpage {
+  background-image: url('images/family.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  @media (max-width: 426px) {
+    background-image: none;
+    height: 100px;
+  }
+}
+.frontpage__message {
+  color: #fff;
+  padding-top: 300px;
+}
+.main__container {
+  padding: 3%;
+  background-color: #E1E1E1;
+  @media (max-width: 426px) {
+    padding: 0;
+  }
+}
+.section__welcome {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  padding: 100px 200px;
+  width: 100%;
+  margin-bottom: 40px;
+  @media (max-width: 426px) {
+    margin-bottom: 0;
+    text-align: center;
+    padding: 50px;
+  }
+}
+.section__title--dark {
+  color: #292C89;
+  font-weight: 700;
+}
+.section__title--light {
+  color: #fff;
+  font-weight: 700;
+}
+.welcome__image {
+  width: 490px;
+  height: 300px;
+  border-radius: 10px;
+  @media (max-width: 426px) {
+    width: 350px;
+    height: 200px;
+  }
+}
+.welcome__p {
+  margin-top: 30px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* SECCION DE SERVICIOS */
+.section__services {
+  background-color: #4759E1;
+  border-radius: 10px;
+  height: 100%;
+  padding: 100px 180px;
+  width: 100%;
+  @media (max-width: 426px) {
+    padding: 50px 10px;
+  }
+}
+.services__container {
+  margin-top: 50px;
+}
+.service__card, .team__card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  min-height: 400px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: all 0.5s;
+  @media (max-width: 426px) {
+    min-height: 350px;
+  }
+}
+.service__card:hover {
+  border: 5px solid #01A79D;
+  transform: scale(1.05);
+}
+.service__card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.service__title {
+  color: #292C89;
+  font-weight: 700;
+}
+.service__icon {
+  font-size: 50px;
+  color: #01A79D;
+}
+/* SECCION PATROCINADORES */
+.sponsor__row {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+  @media (max-width: 426px) {
+    display: none;
+  }
+}
+.sponsor__image {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+/* CAROUSEL TESTIMONIALS */
+.section__testimonials {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  padding: 100px 200px;
+  @media (max-width: 426px) {
+    padding: 50px 10px;
+  }
+}
+.carousel__card {
+  background-image: url('images/quotes.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-style: none;
+  padding: 30px;
+  margin: 20px;
+  @media (max-width: 426px) {
+    border: 1px solid #292C89;
+    padding: 20px 0;
+    background-image: none;
+  }
+}
+.carousel__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.carousel__p {
+  font-size: large;
+  font-weight: 400;
+  margin: 30px 100px;
+  text-align: justify;
+  @media (max-width: 426px) {
+    margin: 30px 0;
+  }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: lightgray;
+}
+/* FOOTER */
+footer {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background-color: #4759E1;
+}
+.footer__container {
+  padding: 60px 0;
+  @media (max-width: 426px) {
+    padding: 60px 0 60px 50px;
+  }
+}
+.footer__info1 {
+  padding-left: 200px;
+  @media (max-width: 426px) {
+    padding-left: 0;
+  }
+}
+.footer__info2  {
+  @media (max-width: 426px) {
+    padding-left: 0;
+  }
+}
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.footer__social i {
+  color: #fff;
+  font-size: 30px;
+}
+/* EQUIPO MEDICO */
+.outTeam__description {
+  font-size: 18px;
+  padding: 3% 10%;
+  text-align: justify;
+  @media (max-width: 426px) {
+    padding: 1% 0;
+  }
+}
+.team__card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  min-height: 600px;
+  @media (max-width: 426px) {
+    min-height: 500px;
+    width: 350px !important;
+  }
+}
+.team__image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.card__chip {
+  border: 1px solid #01A79D;
+  border-radius: 10px;
+  color: #01A79D;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* FORMULARIO CONTACTO */
+#section__contact, #section__ourTeam {
+  padding: 100px;
+  @media (max-width: 426px) {
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.contact__form {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #292C89;
+  height: 100%;
+  padding: 100px 400px;
+  width: 100%;
+  @media (max-width: 426px) {
+    padding: 30px;
+  }
+}
+.form__btn {
+  background-color: #292C89;
+  color: #fff;
+}
+#map {
+  background-image: url('images/map.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
