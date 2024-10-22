@@ -4,11 +4,9 @@
 Este proyecto es una aplicación para la gestión de un hospital. Permite administrar pacientes, médicos, citas y otros aspectos relacionados con el funcionamiento de un hospital.
 
 ## Características
-- Gestión de pacientes
-- Gestión de médicos
-- Programación de citas
-- Historial médico
-- Reportes y estadísticas
+- Vista Principal (Incluye sección de bienvenida, servicios, testimonios, pie de página)
+- Presentación de Equipo Médico , listado.
+- Página de Contacto (incluye formulario de contacto, mapa de la clínica)
 
 ## Requisitos
 - Navegador Web.
@@ -16,7 +14,7 @@ Este proyecto es una aplicación para la gestión de un hospital. Permite admini
 ## Ejecución
 1. Clona el repositorio:
   ```bash
-  git clone https://github.com/tu_usuario/proyecto-hospital.git
+  git clone https://github.com/FernandaAvello/proyecto-clinica.git
   ```
 2. Navega al directorio del proyecto:
 3. Doble click en archivo `index.html`
