@@ -1,7 +1,7 @@
 # Proyecto Clínica
 
 ## Descripción
-Este proyecto para un apágina web para una clínica ficticia.
+Este proyecto para una página web para una clínica ficticia.
 
 ## Características
 - Vista Principal (Incluye sección de bienvenida, servicios, testimonios, pie de página)
