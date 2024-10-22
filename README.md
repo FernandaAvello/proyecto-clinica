@@ -1,7 +1,7 @@
 # Proyecto Clínica
 
 ## Descripción
-Este proyecto es una aplicación para la gestión de un hospital. Permite administrar pacientes, médicos, citas y otros aspectos relacionados con el funcionamiento de un hospital.
+Este proyecto para un apágina web para una clínica ficticia.
 
 ## Características
 - Vista Principal (Incluye sección de bienvenida, servicios, testimonios, pie de página)
